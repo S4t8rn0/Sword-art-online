@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sword art online</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img class="logo" src="./src/imagens/logo.png" alt="Logo Sword art online">
+    </header>
+
+    <main class="selecao-de-personagens">
+      <section class="personagens">
+        <h1 class="titulo">Selecione um personagem</h1>
+        <ul class="lista-de-personagens">
+          <li class="personagem selecionado" id="kirito" data-name="Kirito" data-description="Kirito, Kazuto Kirigaya, é o protagonista de Sword Art Online. Um jogador habilidoso e destemido, ele se destaca por suas habilidades excepcionais em combate, especialmente com a espada, liderança, agilidade, estratégia e técnicas de luta. Kirito é conhecido por seu espírito independente e forte senso de justiça, lutando para proteger seus amigos e desbravar os desafios do jogo.">
+            <img
+              src="./src/imagens/kirito-card.jpg"
+              alt="Personagem Kirito"
+            />
+          </li>
+          <li class="personagem" id="asuna" data-name="Asuna" data-description="Asuna Yuuki é uma personagem central em Sword Art Online, conhecida por sua beleza e determinação, além de ser gentil e protetora. No jogo, ela se destaca  como a melhor espadachim, sendo uma das líderes do grupo de elite, os Lords of the Floor. Asuna é uma espadachin excepcional, especialmente com sua arma principal, a Rapier com um estilo de luta rápido e preciso.">
+            <img
+              src="./src/imagens/asuna-card.jpg"
+              alt="Personagem Asuna"
+            />
+          </li>
+
+          <li class="personagem" id="yui" data-name="Yui" data-description="Yui é uma personagem adorável de Sword Art Online, conhecida por ser a inteligência artificial criada para ajudar os jogadores a se recuperarem emocionalmente, se torna uma figura maternal para Kirito e Asuna. Ela é cheia de curiosidade e amor, trazendo alegria e leveza às situações mais sombrias. Ela tem a capacidade de conjurar habilidades de apoio e proteção.">
+            <img
+              src="./src/imagens/yui-card.jpg"
+              alt="Personagem Yui"
+            />
+          </li>
+
+          <li class="personagem" id="eugeo" data-name="Eugeo" data-description="Eugeo é um dos protagonistas de Sword Art Online: Alicization. Ele é um jovem cavaleiro que vive no mundo de Underworld, onde sua lealdade e senso de justiça o destcam, além da determinação e gentileza. Possui um forte sentido de moralidade, habilidades em combate e a habilidade única de manipular gelo.">
+            <img
+              src="./src/imagens/eugeo-card.jpg"
+              alt="Personagem Eugeo"
+            />
+          </li>
+
+          <li class="personagem" id="leafa" data-name="Leafa" data-description="Leafa é a prima de Kirito e uma das personagens principais em Sword Art Online: Fairy Dance Arc. Ela é uma habilidosa jogadora no mundo de Alfheim Online, onde se destaca como uma talentosa elfa e espadachim. Com uma personalidade forte e protetora. Leafa utiliza uma espada longa com muita agilidade e magia de proteção.">
+            <img
+              src="./src/imagens/leafa-card.jpg"
+              alt="Personagem Leafa"
+            />
+          </li>
+
+          <li class="personagem" id="lisbeth" data-name="Lisbeth" data-description="Lisbeth é uma personagem de apoio, utiliza uma espada chamada Kibaou, e conhecida por sua habilidade como ferreira. Traz um toque de leveza e humor à história. Lisbeth é determinada e apaixonada por seu ofício, sempre buscando criar as melhores armas para ajudar seus amigos em suas aventuras. Sua personalidade é marcada pela lealdade e pela força.">
+            <img
+              src="./src/imagens/lisbeth-card.jpg"
+              alt="Personagem Lisbeth"
+            />
+          </li>
+
+          <li class="personagem" id="silica" data-name="Silica" data-description="Sílica é uma jovem destemida e cheia de energia,fez parte dos jogadores presos no mundo de Sword Art Online, conseguiu trazer luz e esperança ao ambiente sombrio do jogo. Utiliza uma espada curta, Saber, mas destaca-se como Domadora de Feras, tornando-se a primeira a domar um dragão de penas, Pina. Sua relação com ele reflete seu coração leal e otimista.">
+            <img
+              src="./src/imagens/silica-card.jpg"
+              alt="Personagem Silica"
+            />
+          </li>
+
+          <li class="personagem" id="sinon" data-name="Sinon" data-description="Sinon é uma das protagonistas de Sword Art Online: Phantom Bullet. Ela é uma personagem forte, destemida e possui um espírito competitivo. Ela é uma excelente sniper, no jogo Gun Gales Online, onde se destaca por sua precisão e habilidade com armas de fogo, reflexos rápidos, estratégia e proeficiência com outras armas.">
+            <img
+              src="./src/imagens/sinon-card.jpg"
+              alt="Personagem Sinon"
+            />
+          </li>
+        </ul>
+      </section>
+      <section class="personagem-selecionado">
+        <img
+          class="personagem-grande"
+          src="./src/imagens/kirito-card.png"
+          alt="Personagem Selecionado"
+        />
+
+        <div class="informacoes-personagem">
+          <h2 class="nome-personagem" id="nome-personagem">Kirito</h2>
+          <p class="descricao-personagem" id="descricao-personagem">
+            Kirito, Kazuto Kirigaya, é o protagonista de Sword Art Online. Um jogador habilidoso e destemido, ele se destaca por suas habilidades excepcionais em combate, especialmente com a espada, liderança, agilidade, estratégia e técnicas de luta. Kirito é conhecido por seu espírito independente e forte senso de justiça, frequentemente lutando para proteger seus amigos e desbravar os desafios do jogo.
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
